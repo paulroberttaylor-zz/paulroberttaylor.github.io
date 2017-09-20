@@ -10,6 +10,11 @@ To prepare for creating UI tests using the new Lightning Testing Service, the Dr
 _Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
 
  
+```bash 
+sfdx force:project:create -n DreamhouseAppTesting
+```
+
+
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
 
