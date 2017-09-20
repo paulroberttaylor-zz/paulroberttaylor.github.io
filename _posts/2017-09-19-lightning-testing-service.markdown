@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "LTS"
 date:   2017-09-19
 published: false
