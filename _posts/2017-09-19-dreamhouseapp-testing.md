@@ -11,6 +11,8 @@ To prepare for creating UI tests using the new Lightning Testing Service, get th
 
 _Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
 
+sfdx force:project:create -n DreamhouseAppTesting
+
 sfdx force:org:create -f config/project-scratch-def.json -a dap
 
 sfdx force:package:install -i 04t6A000000EfcP  -u dap
