@@ -37,7 +37,9 @@
         {{ content }}
       </section>
       
-      {% include disqus.html %}
+      {% if post.comments %}
+        {% include disqus.html %}
+      {% endif %}
     </div>
 
     <!-- FOOTER  -->
