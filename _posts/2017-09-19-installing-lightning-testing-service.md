@@ -13,4 +13,7 @@ Install the v1.1 package from [Lightning Testing Service Github](https://github.
 sfdx force:package:install -i 04tJ0000000EbBy  -u dap
 
 Open the org to the url of the jasmine tests:
+
+```bash
 sfdx force:org:open -u dap -p /c/jasmineTests.app
+```
