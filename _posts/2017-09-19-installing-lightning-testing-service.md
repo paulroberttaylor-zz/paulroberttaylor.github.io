@@ -1,6 +1,5 @@
 ---
 title: Installing Lightning Testing Service
-published: false
 ---
 
 If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({% post_url 2017/09/19/dreamhouseapp-testing %})
