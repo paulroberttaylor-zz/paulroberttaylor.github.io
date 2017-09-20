@@ -1,5 +1,5 @@
 ---
-title: Setting up Dreamhouse in a scratch org
+title: Dreamhouse App in a scratch org
 layout: post
 comments: true
 published: true
