@@ -2,13 +2,14 @@
 title: Setting up Dreamhouse in a scratch org
 layout: default
 comments: true
+published: true
 ---
 
 # Dreamhouse App in a scratch org
 
 To prepare for creating UI tests using the new Lightning Testing Service, get the Dreamhouse app installed into a scratch org.
 
-_Assuming that a dev org has already been authorised using *sfdx force:auth:web:login*_
+_Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
 
 sfdx force:org:create -f config/project-scratch-def.json -a dap
 
