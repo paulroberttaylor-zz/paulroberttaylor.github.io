@@ -5,7 +5,7 @@ comments: true
 published: true
 ---
 
-If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({ post_url 2017/09/19/dreamhouseapp-testing )
+If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({{ post_url 2017/09/19/dreamhouseapp-testing.html}} )
 
 sfdx force:package:install -i 04tJ0000000EbBy  -u dap
 
