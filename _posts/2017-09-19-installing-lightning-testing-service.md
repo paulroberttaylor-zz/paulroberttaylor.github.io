@@ -41,7 +41,7 @@ Once the testing framework is installed in the scratch org, browse to the url of
 sfdx force:org:open -u dap -p /c/jasmineTests.app
 ```
 
-Run the tests through the CLI
+Or run the tests through the CLI
 
 ```
 sfdx force:lightning:test:run -u dap --appname jasmineTests.app
