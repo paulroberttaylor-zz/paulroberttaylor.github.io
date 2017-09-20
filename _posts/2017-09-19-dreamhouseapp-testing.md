@@ -21,3 +21,6 @@ sfdx force:org:open -u dap
 
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
+
+
+{% include disqus.html %}
