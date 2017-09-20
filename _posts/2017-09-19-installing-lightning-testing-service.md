@@ -12,7 +12,7 @@ To install the Lightning Testing Service, either install via the package, or fro
 Install the v1.1 package from [Lightning Testing Service Github](https://github.com/forcedotcom/LightningTestingService/releases).  The [LTS with Examples](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ0000000EbBy) package was used in this example.
 
 ```
-sfdx force:package:install -i 04tJ0000000EbBy  -u dap
+sfdx force:package:install -i 04tJ0000000EbBy  -u NAME_OF_YOUR_SCRATCH_ORG
 ```
 
 
@@ -28,19 +28,24 @@ Enter the code directory
 cd LightningTestingService    
 ```
 
+Push the source to the scratch org
+
+```
+sfdx force:source:push -u NAME_OF_YOUR_SCRATCH_ORG
+```
 
 
 
 Once the testing framework is installed in the scratch org, browse to the url of the jasmine tests:
 
 ```
-sfdx force:org:open -u dap -p /c/jasmineTests.app
+sfdx force:org:open -u NAME_OF_YOUR_SCRATCH_ORG -p /c/jasmineTests.app
 ```
 
 Or run the tests through the CLI
 
 ```
-sfdx force:lightning:test:run -u dap --appname jasmineTests.app
+sfdx force:lightning:test:run -u NAME_OF_YOUR_SCRATCH_ORG --appname jasmineTests.app
 ```
 
-Note that if this command is run without supplying app name, by default the CLI will attempt to open Tests.app which does not exist in the github repository.
+Note that if this command is run without supplying the app name, by default the CLI will attempt to open Tests.app which does not exist in the github repository.
