@@ -2,18 +2,6 @@
 layout: default
 ---
 
-
-
-{% assign post = site.posts.first %}
-
-{% for post in site.posts %}
-  <div>
-    <a href="{{ post.url }}">{{post.title}}</a>
-  </div>
-{% endfor %}
-
-
-
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
