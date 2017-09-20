@@ -9,3 +9,5 @@ sfdx force:package:install -i 04t6A000000EfcP  -u dap
 
 sfdx force:org:open -u dap
 
+
+<img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
