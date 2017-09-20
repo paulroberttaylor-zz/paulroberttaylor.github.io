@@ -1,11 +1,9 @@
 ---
-title: Setting up Dreamhouse in a scratch org
+title: Dreamhouse App in a scratch org
 layout: post
 comments: true
 published: true
 ---
-
-# Dreamhouse App in a scratch org
 
 To prepare for creating UI tests using the new Lightning Testing Service, the Dreamhouse app needs to be installed into a scratch org.
 
