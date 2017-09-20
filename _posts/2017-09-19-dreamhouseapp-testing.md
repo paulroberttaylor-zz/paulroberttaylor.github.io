@@ -17,4 +17,4 @@ _Assuming that a dev org has already been authorised using **sfdx force:auth:web
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
 
-5. sfdx force:org:open -u dap -p /c/jasmineTests.app
+
