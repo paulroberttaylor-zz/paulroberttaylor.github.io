@@ -11,12 +11,12 @@ If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamh
 
 Install the v1.1 package from [Lightning Testing Service Github](https://github.com/forcedotcom/LightningTestingService/releases).  The [LTS with Examples](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ0000000EbBy) package was used in this example.
 
-```bash
+```
 sfdx force:package:install -i 04tJ0000000EbBy  -u dap
 ```
 
 Open the org to the url of the jasmine tests:
 
-```bash
+```
 sfdx force:org:open -u dap -p /c/jasmineTests.app
 ```
