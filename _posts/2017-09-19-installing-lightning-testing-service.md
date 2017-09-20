@@ -7,7 +7,7 @@ published: true
 
 Before tests can be written that will validate the Lightning components in the Dreamhouse app, the new framework needs to be installed.
 
-If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({{ post_url 2017/09/19/dreamhouseapp-testing.html}} )
+If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({% post_url 2017-09-19-dreamhouseapp-testing %} )
 
 Install the v1.1 package from [Lightning Testing Service Github](https://github.com/forcedotcom/LightningTestingService/releases).  The [LTS with Examples](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ0000000EbBy) package was used in this example.
 
