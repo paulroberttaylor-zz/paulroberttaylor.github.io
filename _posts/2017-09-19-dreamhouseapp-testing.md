@@ -1,4 +1,5 @@
 ---
+title: Setting up Dreamhouse in a scratch org
 layout: default
 comments: true
 ---
