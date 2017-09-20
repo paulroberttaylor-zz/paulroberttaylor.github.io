@@ -36,17 +36,13 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
+
+      <section class="inner">
+        {% if page.comments %}
+          {% include disqus.html %}
+        {% endif %}
+      </section>
       
-      
-      <!-- page.comments {{ page.comments }} -->
-      {% if page.comments %}
-        {% include disqus.html %}
-      {% endif %}
-      
-      <!-- post.comments {{ post.comments }} -->
-      {% if post.comments %}
-        {% include disqus.html %}
-      {% endif %}
     </div>
 
     <!-- FOOTER  -->
