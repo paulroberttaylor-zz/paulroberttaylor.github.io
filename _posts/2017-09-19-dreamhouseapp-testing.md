@@ -1,6 +1,6 @@
 ---
 title: Setting up Dreamhouse in a scratch org
-layout: default
+layout: post
 comments: true
 published: true
 ---
@@ -21,6 +21,3 @@ sfdx force:org:open -u dap
 
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
-
-
-{% include disqus.html %}
