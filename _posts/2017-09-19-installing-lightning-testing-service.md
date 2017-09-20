@@ -5,10 +5,6 @@ comments: true
 published: true
 ---
 
-Before tests can be written that will validate the Lightning components in the Dreamhouse app, the new framework needs to be installed.
-
-If the Dreamhouse app has not yet been installed into a scratch org, see [Dreamhouse App in a scratch org]({% post_url 2017-09-19-dreamhouseapp-testing %} )
-
 To install the Lightning Testing Service, either install via the package, or from source.
 
 ## Via package
