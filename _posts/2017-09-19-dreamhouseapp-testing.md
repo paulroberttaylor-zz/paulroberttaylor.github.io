@@ -7,7 +7,6 @@ published: true
 
 To prepare for creating UI tests using the new Lightning Testing Service, the Dreamhouse app needs to be installed into a scratch org.
 
-_Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
 
 Create a new project which will be used for the Dreamhouse work
 ``` 

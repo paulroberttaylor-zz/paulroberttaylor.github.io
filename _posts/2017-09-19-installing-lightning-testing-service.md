@@ -34,13 +34,13 @@ Push the source to the scratch org
 sfdx force:source:push -u NAME_OF_YOUR_SCRATCH_ORG
 ```
 
-
-
 Once the testing framework is installed in the scratch org, browse to the url of the jasmine tests:
 
 ```
 sfdx force:org:open -u NAME_OF_YOUR_SCRATCH_ORG -p /c/jasmineTests.app
 ```
+
+<img src="{{ site.url }}/assets/gifs/default_jasmine_tests.gif" />
 
 Or run the tests through the CLI
 

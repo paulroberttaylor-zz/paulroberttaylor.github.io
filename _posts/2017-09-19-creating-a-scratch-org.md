@@ -5,8 +5,6 @@ comments: true
 published: true
 ---
 
-_Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
-
 Create a new project
 ``` 
 sfdx force:project:create -n YOUR_PROJECT_NAME
