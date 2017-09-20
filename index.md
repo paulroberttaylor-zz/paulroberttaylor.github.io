@@ -8,4 +8,4 @@ index
 
 {{post.title}}
 
-{{ post.url }}
+<a href="{{ post.url }}">{{ post.url }}</a>
