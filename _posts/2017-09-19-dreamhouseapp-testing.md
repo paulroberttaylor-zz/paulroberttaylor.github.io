@@ -9,11 +9,22 @@ To prepare for creating UI tests using the new Lightning Testing Service, the Dr
 
 _Assuming that a dev org has already been authorised using **sfdx force:auth:web:login**_
 
-1. ```bash sfdx force:project:create -n DreamhouseAppTesting```
-2. sfdx force:org:create -f config/project-scratch-def.json -a dap
-3. sfdx force:package:install -i 04t6A000000EfcP  -u dap
-4. sfdx force:org:open -u dap
+ 
+```bash 
+sfdx force:project:create -n DreamhouseAppTesting
+```
 
+```bash 
+sfdx force:org:create -f config/project-scratch-def.json -a dap
+```
+
+```bash 
+sfdx force:package:install -i 04t6A000000EfcP  -u dap
+```
+
+```bash 
+sfdx force:org:open -u dap
+```
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
 
