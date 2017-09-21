@@ -19,11 +19,10 @@ Select DreamHouse from the app launcher
 
 <img src="{{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif" />
 
-
-![]({{ site.url }}/assets/gifs/dreamhouse-app-via-sfdx.gif)
-
 Navigate directly to the Proprties list
 ```
 sfdx force:org:open -u dh -p /one/one.app#/sObject/Property__c/list?filterName=Recent
 ```
+
+<img src="{{ site.url }}/assets/gifs/properties_list.gif" />
 
